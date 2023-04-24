@@ -135,4 +135,4 @@ def test() :
     return render_template('index7.html')
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5003, debug=True)
+    app.run(debug=True)
