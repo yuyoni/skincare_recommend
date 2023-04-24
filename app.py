@@ -17,7 +17,7 @@ ocr_result = []
 # Main page
 @app.route('/')
 def start():
-    return render_template('index0.html')
+    return render_template('index.html')
 
 @app.route('/main')
 def main():
